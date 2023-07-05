@@ -1,4 +1,9 @@
 import { Component } from '@angular/core';
+import { Routes } from '@angular/router';
+
+const routes:Routes=[
+
+];
 
 @Component({
   selector: 'app-root',
