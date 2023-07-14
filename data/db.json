@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "XmHfHJw",
+      "superhero": "Zero",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Zero two",
+      "first_appearance": "Game boy advance 2",
+      "characters": "Zero",
+      "alt_img": "https://static.miraheze.org/megamanwiki/0/00/Rockman_X_DiVE_Hunter_Program_Black_Zero.png"
     }
   ]
 }

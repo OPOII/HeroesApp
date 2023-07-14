@@ -34,6 +34,18 @@ export class NewPageComponent {
   }
 
   onSubmit():void{
+    if(this.heroForm.invalid)return;
 
+    if(this.currentHero.id){
+      this.heroService.updateHero(this.currentHero)
+      .subscribe(hero=>{
+
+      });
+      return;
+    }
+    this.heroService.addHero(this.currentHero)
+    .subscribe(hero=>{
+
+    })
   }
 }
