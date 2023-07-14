@@ -87,7 +87,7 @@ export class NewPageComponent implements OnInit {
       });
 
     // dialogRef.afterClosed().subscribe(result=>{
-    //   if(!result) return;
+    //   if(!result) return;s
     //   this.heroService.deleteHeroById(this.currentHero.id)
     //   .subscribe(wasDeleted=>{
     //     if(wasDeleted){
