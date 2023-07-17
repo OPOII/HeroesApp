@@ -26,5 +26,6 @@ export const publicGuardMatch:CanMatchFn=(route:Route,segments:UrlSegment[])=>{
 }
 export const publicActivateGuard:CanActivateFn=(route:ActivatedRouteSnapshot,state:RouterStateSnapshot)=>{
 
+
   return checkAuthStatus();
 }
